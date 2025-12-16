@@ -1,0 +1,60 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(to bottom, #B2DBFF, #109AF0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Arial', bold;
+    color: #FFFB02;
+    font-size: 3.8rem;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#egg-image {
+    display: block;
+    margin: 40px auto;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.button-container button {
+    background-color: #0071AE;
+    color: #FFFB02;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    height: 53px;
+    font-size: 1.5rem;
+    
+    border: none;
+    border-radius: 15px;
+}
+
+.button-container button:hover {
+    transform: scale(1.08);
+    background-color: #005B8E;
+}
+
+#timer {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
